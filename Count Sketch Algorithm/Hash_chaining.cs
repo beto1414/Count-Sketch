@@ -237,16 +237,6 @@ namespace hashing
             return sum;
 
 
-            // ulong sum = 0;
-            // foreach(Tuple<ulong,int> item in pairs)
-            // {
-            //     table_ModPrime.increment(item.Item1, item.Item2);
-            // }
-            // foreach(Tuple<ulong,int> item in pairs)
-            // {
-            //     sum += (ulong)Math.Pow(item.Item2,2);
-            // }
-            // return sum;
         }
     }
 }
